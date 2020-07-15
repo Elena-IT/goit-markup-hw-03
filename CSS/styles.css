@@ -4,10 +4,30 @@
   --main-font-color: white;}
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*, *:: before, 
+*:: after {
+  box-sizing: inherit;
+}
+
+.header-container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato
+}
 .logo {
   font-family: "Roboto", sans-serif;
 }
 .hero-heading {
+  margin-top: 0;
+  margin-bottom: 40px;
+  outline: 2px solid red;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -59,6 +79,27 @@ color: #212121;
 .contact-data:focus {
   color: #2196f3;
 }
+
+.list {
+  padding: 0;
+  margin: 0;
+}
+
+.hero-container {
+  text-align: center;
+}
+  .button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  text-align: center;
+  background: #2196f3;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  }
+
   .button:hover,
   .button:focus {
     background: #2196f3;
@@ -66,7 +107,8 @@ color: #212121;
     text-transform: uppercase;
     letter-spacing: 0.06em;
   }
-  .hero-button-text {
+
+   .hero-button-text {
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
@@ -77,7 +119,13 @@ color: #212121;
 
     color: #FFFFFF;
   }
-
+  .abt-us-container {
+    margin-top: 0;
+    margin-bottom: 94px;
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .sub-heading {
     font-weight: bold;
     font-size: 14px;

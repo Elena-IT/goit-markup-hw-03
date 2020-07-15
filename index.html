@@ -14,59 +14,62 @@
 
   <body>
     <!--Шапка сайта-->
-    <header>
-      <nav>
-        <a href="index.html" aria-label="лого">
-          <img src="./images/header/WebStudio.png" alt="webstudio" />
-        </a>
-        <ul>
-          <li class="nav-link-item">
-            <a class="nav-link link current" href="index.html">
-              <p class="nav-link-text link current">Студия</p>
-            </a>
-          </li>
-          <li class="nav-link-item">
-            <a class="nav-link" href="portfolio.html">
-              <p class="nav-link-text">Портфолио</p>
-            </a>
-          </li>
-          <li class="nav-link-item">
-            <a class="nav-link" href=" ">
-              <p class="nav-link-text">Контакты</p>
-            </a>
-          </li>
-        </ul>
+    <header class="page-header">
+      <div class="header-container">
+        <nav>
+          <a href="index.html" aria-label="лого">
+            <img src="./images/header/WebStudio.png" alt="webstudio" />
+          </a>
+          <ul>
+            <li class="nav-link-item list">
+              <a class="nav-link link current" href="index.html">
+                <p class="nav-link-text link current">Студия</p>
+              </a>
+            </li>
+            <li class="nav-link-item list">
+              <a class="nav-link" href="portfolio.html">
+                <p class="nav-link-text">Портфолио</p>
+              </a>
+            </li>
+            <li class="nav-link-item list">
+              <a class="nav-link" href=" ">
+                <p class="nav-link-text">Контакты</p>
+              </a>
+            </li>
+          </ul>
 
-        <ul>
-          <li class="contact-list-item">
-            <img
-              class="contact-data"
-              src="./images/header/Vector.svg"
-              alt="позвонить"
-            />
-            <a class="contact-data" href="tel: ">+38 096 111 11 11</a>
-          </li>
-          <li class="contact-list-item">
-            <img
-              class="contact-data"
-              src="./images/header/envelope.svg"
-              alt="написать"
-            />
-            <a class="contact-data" href="mailto:info@devstudio.com">
-              info@devstudio.com</a
-            >
-          </li>
-        </ul>
-      </nav>
+          <ul>
+            <li class="contact-list-item list">
+              <img
+                class="contact-data"
+                src="./images/header/Vector.svg"
+                alt="позвонить"
+              />
+              <a class="contact-data" href="tel: ">+38 096 111 11 11</a>
+            </li>
+            <li class="contact-list-item list">
+              <img
+                class="contact-data"
+                src="./images/header/envelope.svg"
+                alt="написать"
+              />
+              <a class="contact-data" href="mailto:info@devstudio.com">
+                info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!--Герой-->
-    <section>
+    <section class="hero-container">
       <h1 class="hero-heading">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
       <button type="button" class="button">
         <span class="hero-button-text">Заказать услугу</span>
       </button>
     </section>
     <!--Почему мы-->
+    <div class="abt-us-container">
     <section class="about-us-section">
       <h2 hidden>Почему мы</h2>
       <ul class="about-img">
@@ -105,6 +108,7 @@
           </p>
         </li>
       </ul>
+    </div>
     </section>
     <!--Чем мы занимаемся-->
     <section>
