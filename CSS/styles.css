@@ -227,10 +227,20 @@ color: #212121;
   color: #2196f3
   ;}
 
+  .clients-container {
+    margin-top: 0;
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 94px;
+}
+
   .clients-list {
     list-style: none;
   }
  .clients-header {
+margin-bottom: 50px;
 font-weight: bold;
 font-size: 36px;
 line-height: 42px;
@@ -326,3 +336,4 @@ color: #FFFFFF;;
 .product-text:focus {
   background: rgba(33, 150, 243, 0.9)
 }
+
