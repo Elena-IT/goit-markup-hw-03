@@ -149,6 +149,8 @@ color: #212121;
   .about-us-section {
     list-style: none;
     text-decoration: none;
+    padding-top: 87px;
+    padding-bottom: 87px;
   }
 
 
@@ -161,7 +163,10 @@ color: #212121;
   letter-spacing: 0.03em;
   color: #757575;
 }
-
+.no.heading {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 .activity-header {
   font-weight: bold;
   font-size: 36px;
@@ -172,6 +177,8 @@ color: #212121;
 }
  .activity-list-item {
   list-style: none;
+  margin-top: 48px;
+  margin-bottom: 94px;
 }
 .activity-subh-r {
   font-weight: bold;
@@ -243,9 +250,15 @@ color: #212121;
   .products-button {
   list-style: none;
   }
-
+  .cotacts-section {
+   background-color: #2F303A;
+  }
+  
   .address-div {
   background: #2F303A;
+  }
+  .join-us-div {
+    background-color: #2F303A;
   }
   .address-item {
   font-style: normal;
