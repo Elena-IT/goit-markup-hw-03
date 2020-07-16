@@ -55,6 +55,9 @@ html {
 .logo-link {
   margin-right: 85px;
 }
+.site-nav-div {
+  margin-left: auto;
+}
 .hero-heading {
   margin-top: 0;
   margin-bottom: 40px;
