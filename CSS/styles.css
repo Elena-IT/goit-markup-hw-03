@@ -21,8 +21,39 @@ html {
   margin-right: auto;
   outline: 2px solid tomato
 }
+
+.site-nav {
+ display: flex; 
+}
+.site-nav .nav-link-item {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  outline: 1px solid red;
+  margin-right: 50px;
+}
+
+.site-nav .nav-link-item:last-child {
+  margin-right: 0;
+}
+
+.contact-list-item {
+
+  outline: 1px solid blue;
+  margin-right: 30px;
+}
+.site-nav .contact-list-item:last-child {
+  margin-right: 0;
+}
+
 .logo {
   font-family: "Roboto", sans-serif;
+}
+.logo-link {
+  margin-right: 85px;
 }
 .hero-heading {
   margin-top: 0;
@@ -35,6 +66,12 @@ html {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  /*justify-content: space-between;*/
 }
 .nav-link {
   font-weight: 500;
@@ -82,11 +119,12 @@ color: #212121;
 
 .list {
   padding: 0;
-  margin: 0;
+  /*margin: 0;*/
 }
 
 .hero-container {
   text-align: center;
+  background-color: grey;
 }
   .button {
   display: inline-block;
@@ -135,10 +173,15 @@ color: #212121;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+    align-items: center;
   }
   .about-img {
     list-style: none;
   }
+  .about-img {
+    display: flex;
+  }
+
   .about-image-icon {
    list-style: none; 
   }
@@ -162,10 +205,15 @@ color: #212121;
   line-height: 1.72;
   letter-spacing: 0.03em;
   color: #757575;
+  align-items: center;
 }
-.no.heading {
+.no.padding {
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.activity-list {
+  display: flex;
 }
 .activity-header {
   font-weight: bold;
@@ -191,6 +239,7 @@ color: #212121;
  
   .team-list {
   list-style:none;
+  display: flex;
   }
   .team-section-name {
    font-weight: bold;
@@ -238,6 +287,7 @@ color: #212121;
 
   .clients-list {
     list-style: none;
+    display: flex;
   }
  .clients-header {
 margin-bottom: 50px;
@@ -256,9 +306,14 @@ color: #212121;
   ;}
   .products-list {
   list-style: none;
+  display: flex;
   }
   .products-button {
   list-style: none;
+  }
+
+  .products-list-main {
+    display: flex;
   }
   .cotacts-section {
    background-color: #2F303A;
@@ -269,6 +324,10 @@ color: #212121;
   }
   .join-us-div {
     background-color: #2F303A;
+  }
+
+  .joinus {
+    display: flex;
   }
   .address-item {
   font-style: normal;
