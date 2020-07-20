@@ -15,7 +15,7 @@
   <body>
     <!--Шапка сайта-->
     <header class="page-header">
-      <div class="hero-container">
+      <div class="header-container">
         <nav class="nav-container">
           <a href="index.html" aria-label="лого" class="logo-link">
             <img src="./images/header/WebStudio.png" alt="webstudio" />
@@ -63,19 +63,25 @@
       </div>
     </header>
     <!--Герой-->
-    <section class="hero-container">
+    <div class="hero-container">
       <h1 class="hero-heading">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
       <button type="button" class="button">
         <span class="hero-button-text">Заказать услугу</span>
       </button>
-    </section>
+    </div>
     <!--Почему мы-->
     <div class="abt-us-container">
       <section class="about-us-sect">
         <h2 hidden>Почему мы</h2>
         <ul class="about-img list">
           <li class="about-image-icon">
-            <img src="./images/about/antenna.svg" alt="антенна" class="image" />
+            <img
+              src="./images/about/antenna.svg"
+              alt="антенна"
+              class="image"
+              width="70"
+              height="70"
+            />
             <h3 class="sub-heading"><b>ВНИМАНИЕ К ДЕТАЛЯМ</b></h3>
             <p class="abt-text">
               Идейные соображения, а также начало повседневной работы по
@@ -83,7 +89,13 @@
             </p>
           </li>
           <li class="about-image-icon">
-            <img src="./images/about/clock.svg" alt="часы" class="image" />
+            <img
+              src="./images/about/clock.svg"
+              alt="часы"
+              class="image"
+              width="70"
+              height="70"
+            />
             <h3 class="sub-heading"><b>ПУНКТУАЛЬНОСТЬ</b></h3>
             <p class="abt-text">
               Задача организации, в особенности же рамки и место обучения кадров
@@ -96,6 +108,8 @@
               src="./images/about/diagram.svg"
               alt="диаграмма"
               class="image"
+              width="70"
+              height="70"
             />
             <h3 class="sub-heading"><b>ПЛАНИРОВАНИЕ</b></h3>
             <p class="abt-text">
@@ -105,7 +119,13 @@
           </li>
 
           <li class="about-image-icon">
-            <img src="./images/about/Group.svg" alt="группа" class="image" />
+            <img
+              src="./images/about/Group.svg"
+              alt="группа"
+              class="image"
+              width="70"
+              height="70"
+            />
             <h3 class="sub-heading"><b>СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</b></h3>
             <p class="abt-text">
               Значимость этих проблем настолько очевидна, что реализация
@@ -118,37 +138,39 @@
 
     <!--Чем мы занимаемся-->
     <section class="activity-sec no.padding">
-      <h2 class="activity-header">Чем мы занимаемся</h2>
-      <ul class="activity-list">
-        <li class="activity-list-item">
-          <img
-            src="images/ourbusiness/desktop.jpg"
-            alt="ноутбук"
-            width="370"
-            height="294"
-          />
-          <h3 class="activity-subh-r">Десктопные приложения</h3>
-        </li>
+      <div class="activity-container">
+        <h2 class="activity-header">Чем мы занимаемся</h2>
+        <ul class="activity-list">
+          <li class="activity-list-item">
+            <img
+              src="images/ourbusiness/desktop.jpg"
+              alt="ноутбук"
+              width="370"
+              height="294"
+            />
+            <h3 class="activity-subh-r">Десктопные приложения</h3>
+          </li>
 
-        <li class="activity-list-item">
-          <img
-            src="images/ourbusiness/mobile.jpg"
-            alt="Телефон"
-            width="370"
-            height="294"
-          />
-          <h3 class="activity-subh-r">Мобильные приложения</h3>
-        </li>
-        <li class="activity-list-item">
-          <img
-            src="images/ourbusiness/design.jpg"
-            alt="компьютер"
-            width="370"
-            height="294"
-          />
-          <h3 class="activity-subh-r">Дизайнерские решения</h3>
-        </li>
-      </ul>
+          <li class="activity-list-item">
+            <img
+              src="images/ourbusiness/mobile.jpg"
+              alt="Телефон"
+              width="370"
+              height="294"
+            />
+            <h3 class="activity-subh-r">Мобильные приложения</h3>
+          </li>
+          <li class="activity-list-item">
+            <img
+              src="images/ourbusiness/design.jpg"
+              alt="компьютер"
+              width="370"
+              height="294"
+            />
+            <h3 class="activity-subh-r">Дизайнерские решения</h3>
+          </li>
+        </ul>
+      </div>
     </section>
     <!--Наша команда-->
     <section class="team-section">
