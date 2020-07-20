@@ -392,6 +392,7 @@ color: #2196f3
   width: 370px
   }
   .products-nav-section {
+   margin-top: 84px;
    width: 1230px;
    margin-left: auto;
    margin-right: auto;
@@ -460,21 +461,34 @@ color: #2196f3
    text-decoration: none
   }
   
-  .products-button:hover,
-  .products-button:focus {
-  color: #2196f3
+  .pro-button:hover,
+  .pro-button:focus {
+  color: white
   ;}
+  
   .products-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #212121;
   }
  .product-item:hover,
  .product-item:focus {
   color: rgba(33, 150, 243, 0.9);
+  }
+  .pro-button {
+    min-width: 73px;
+    height: 38px;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  text-align: center;
+  background: F5F4FA;
+  color: #212121;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
   }
  
   .products-list-main {

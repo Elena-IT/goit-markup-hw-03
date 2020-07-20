@@ -13,51 +13,53 @@
   </head>
   <body>
     <!--Шапка сайта-->
-    <header>
-      <nav class="nav-container">
-        <a href="index.html" aria-label="лого">
-          <img src="./images/header/WebStudio.png" alt="webstudio" />
-        </a>
-        <ul class="site-nav">
-          <li class="nav-link-item">
-            <a class="nav-link" href="index.html">
-              <p class="nav-link-text">Студия</p>
-            </a>
-          </li>
-          <li class="nav-link-item">
-            <a class="nav-link link current" href="portfolio.html">
-              <p class="nav-link-text link current">Портфолио</p>
-            </a>
-          </li>
-          <li class="nav-link-item">
-            <a class="nav-link" href=" ">
-              <p class="nav-link-text">Контакты</p>
-            </a>
-          </li>
-        </ul>
-        <div class="site-nav-div">
+    <header class="page-header">
+      <div class="header-container">
+        <nav class="nav-container">
+          <a href="index.html" aria-label="лого" class="logo-link">
+            <img src="./images/header/WebStudio.png" alt="webstudio" />
+          </a>
           <ul class="site-nav">
-            <li class="contact-list-item">
-              <img
-                class="contact-data"
-                src="./images/header/Vector.svg"
-                alt="позвонить"
-              />
-              <a class="contact-data" href="tel: ">+38 096 111 11 11</a>
+            <li class="nav-link-item list">
+              <a class="nav-link link" href="index.html">
+                <p class="nav-link-text link current">Студия</p>
+              </a>
             </li>
-            <li class="contact-list-item">
-              <img
-                class="contact-data"
-                src="./images/header/envelope.svg"
-                alt="написать"
-              />
-              <a class="contact-data" href="mailto:info@devstudio.com">
-                info@devstudio.com</a
-              >
+            <li class="nav-link-item list">
+              <a class="nav-link current" href="portfolio.html">
+                <p class="nav-link-text">Портфолио</p>
+              </a>
+            </li>
+            <li class="nav-link-item list">
+              <a class="nav-link" href=" ">
+                <p class="nav-link-text">Контакты</p>
+              </a>
             </li>
           </ul>
-        </div>
-      </nav>
+          <div class="site-nav-div">
+            <ul class="site-nav">
+              <li class="contact-list-item list">
+                <img
+                  class="contact-data"
+                  src="./images/header/Vector.svg"
+                  alt="позвонить"
+                />
+                <a class="contact-data" href="tel: ">+38 096 111 11 11</a>
+              </li>
+              <li class="contact-list-item list">
+                <img
+                  class="contact-data"
+                  src="./images/header/envelope.svg"
+                  alt="написать"
+                />
+                <a class="contact-data" href="mailto:info@devstudio.com">
+                  info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
 
     <!--Products-navigation-->
@@ -65,19 +67,19 @@
       <h1 hidden>Проекты</h1>
       <ul class="products-list">
         <li class="products-button">
-          <button type="button">Все</button>
+          <button type="button" class="pro-button">Все</button>
         </li>
         <li class="products-button">
-          <button type="button">Веб-сайты</button>
+          <button type="button" class="pro-button">Веб-сайты</button>
         </li>
         <li class="products-button">
-          <button type="button">Приложения</button>
+          <button type="button" class="pro-button">Приложения</button>
         </li>
         <li class="products-button">
-          <button type="button">Дизайн</button>
+          <button type="button" class="pro-button">Дизайн</button>
         </li>
         <li class="products-button">
-          <button type="button">Маркетинг</button>
+          <button type="button" class="pro-button">Маркетинг</button>
         </li>
       </ul>
     </section>
