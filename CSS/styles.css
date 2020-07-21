@@ -383,6 +383,9 @@ color: #2196f3
   display: flex;
   justify-content: center;
   }
+  .products-list:last-child {
+    margin-right: 0;
+  }
   
   .products-button {
     margin-right: 6px;
@@ -429,7 +432,6 @@ color: #2196f3
   .contacts-div1 {
   margin-top: 0;
   margin-bottom: 94px;
-  padding-left: 135px;
   margin-right: auto;
   padding-top: 60px;
   align-content: space-between;
