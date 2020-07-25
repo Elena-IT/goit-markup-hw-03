@@ -14,7 +14,7 @@ html {
 }
 
 .header-container {
-  max-width: 1230px;
+  max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -130,7 +130,7 @@ color: #212121;
 .hero-container {
   text-align: center;
   background-color: grey;
-  max-width: 1530px;
+  max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -173,7 +173,7 @@ color: #212121;
     text-align: center;
   }
   .abt-us-container {
-    width: 1230px;
+    width: 1200px;
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
@@ -245,7 +245,7 @@ color: #212121;
 
   }
 .activity-container {
-  max-width: 1530px;
+  max-width: 1200px;
   margin-top: 0;
   margin-bottom: 94px;
   margin-left: auto;
@@ -281,7 +281,7 @@ color: #212121;
   var (--main-font-color);}
  
  .team-section-container {
-    max-width: 1530px;
+    max-width: 1200px;
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
@@ -343,7 +343,7 @@ color: #212121;
   ;}
 
   .clients-container {
-  max-width: 1530px;
+  max-width: 1200px;
   margin-top: 0;
   margin-bottom: 94px;
   margin-left: auto;
@@ -401,6 +401,7 @@ color: #2196f3
   width: 370px
   }
   .products-nav-section {
+   display: flex;
    margin-top: 84px;
    width: 1230px;
    margin-left: auto;
