@@ -1,7 +1,7 @@
 :root {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  --main-font-color: white;}
+    --main-font-color: white;}
 }
 
 html {
@@ -11,6 +11,12 @@ html {
 *, *:: before, 
 *:: after {
   box-sizing: inherit;
+}
+
+.list {
+pading: 0; 
+margin: 0; 
+list-style-type: none;
 }
 
 .header-container {
@@ -376,7 +382,7 @@ color: #2196f3
    width: 1230px;
    margin-left: auto;
    margin-right: auto;
-   padding: 15px 15px 15px 15px;
+  /* padding: 15px 15px 15px 15px;*/
  }
   .products-list {
   list-style: none;
@@ -397,7 +403,7 @@ color: #2196f3
   .products-nav-section {
    display: flex;
    margin-top: 84px;
-   width: 1230px;
+   width: 1200px;
    margin-left: auto;
    margin-right: auto;
    padding: 15px 15px 15px 15px;
@@ -423,7 +429,7 @@ color: #2196f3
    background-color: #2F303A;
    display: flex;
    background: #2F303A;
-   max-width: 1530px;
+   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
