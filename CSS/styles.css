@@ -458,11 +458,13 @@ color: #2196f3
     background-color: #2F303A;
  
    }
+  .contacts-sec {
+   background-color: #2F303A;
+   background: #2F303A;
 
-  .contacts {
+ }  .contacts {
     display: flex;
-    background-color: #2F303A;
-    background: #2F303A;
+    
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
