@@ -345,13 +345,17 @@ color: #212121;
  /* .clients-container {
   max-width: 1200px;
   margin-top: 0;
-  margin-bottom: 94px;
+ 
   margin-left: auto;
   margin-right: auto; 
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 0px;
       }*/
+
+  .clients-section {
+   margin-bottom: 94px;
+   }
 
   .clients-list {
     list-style: none;
@@ -391,7 +395,7 @@ color: #2196f3
   }
   .products-list-item {
   list-style: none;
-  width: 370px
+  width: 370px;
   }
 
   
@@ -416,7 +420,7 @@ color: #2196f3
   .products-list-main:last-child {
     margin-right: 0;
   }
-  .contacts-section {
+  /*.contacts-section {
    background-color: #2F303A;
    display: flex;
    background: #2F303A;
@@ -426,28 +430,47 @@ color: #2196f3
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-   }
+   }*/
   
-  .contacts-div1 {
-  margin-top: 0;
-  margin-bottom: 94px;
-  margin-right: auto;
-  padding-top: 60px;
+ .contacts-div1 {
+  padding-left: 30px;
   align-content: space-between;
   }
   .address-div {
   background: #2F303A;
+  padding-right: 60px;
   }
-  .join-us-div {
-    background-color: #2F303A;
-    margin-left: auto;
-    margin-right: 660px;
-    margin-bottom: 94px;
-    padding-top: 60px;}
-
-  .joinus {
+  .footer-logo {
+    padding-left: 
+  }
+   .join-us {
     display: flex;
-  }
+    background-color: #2F303A;
+ 
+   }
+
+  .contacts {
+    display: flex;
+    background-color: #2F303A;
+    background: #2F303A;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-content: space-between;
+     /*padding-right: 660px;
+    padding-bottom: 94px;*/
+    }
+      .contacts1 {
+    background-color: #2F303A;
+    background: #2F303A;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-content: space-between;
+     /*padding-right: 660px;
+    padding-bottom: 94px;*/
+    }
+
   .address-item {
   font-style: normal;
   font-weight: normal;
